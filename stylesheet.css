@@ -1,0 +1,40 @@
+* {font-family:sans-serif;}
+
+body {
+	background-color:#C7D0D5;
+	
+	}
+
+h1 {text-align:center;
+	color:#EC583A;
+	font-size:44px;}
+	
+#brian {margin-left:auto;
+		margin-right:auto;
+		display:block;}	
+
+h2 {font-size:24px;
+	color:#93B1C6;
+	text-align:center;
+	margin:2px;}
+
+h4>a {color:#FF6600;
+	font-size:26px;}
+	
+.summary {text-align:center;
+		margin:60px 190px 60px 190px ;}
+		
+.boss {
+	float:left;}
+	
+.boss-info {display:inline-block;
+margin-left:30px;
+margin-top:45px;
+width:700px;}	
+
+a:hover {color:red;}
+
+		
+#list {
+		width: 150px;}		
+		
