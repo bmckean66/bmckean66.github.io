@@ -1,0 +1,105 @@
+body {position:relative;
+	font-family:Helvetica;}
+	
+.navbar {margin-bottom:0;}	
+
+.navbar-default {padding-bottom:0px;}	
+
+.white {color:#fff;}
+
+#title {font-size:4.5em;
+		padding-bottom:30px;}
+
+#caption {margin-top:50px;font-size:1.5em;}
+
+#byline {font-size:2.5em;
+		padding-bottom:30px;}
+
+#how {font-size:3.5em;
+	padding:30px 0px;}
+	
+#row {padding-bottom:30px;}	
+
+.btn-blue {
+	background-color:#FFF;
+	border-color:#538398;
+	color:#538398;
+	width:250px;
+}
+.navbar-right>li>.btn-blue {width:100px;}
+
+#hero {background-color:#538398;
+		color:black;
+		padding:100px 0px 50px 0px;} 
+
+i.feature {font-size:234px;
+		padding-bottom:20px;}
+		
+img.feature {padding:30px;}		
+
+#faq {padding:50px 0px 50px 0px;}
+
+#freak {padding-bottom:50px;}
+
+.panel-default {border:1px solid #538398;}
+
+#features {background-color:#538398;
+padding:50px 0px;}
+
+#led {width:250px;}
+
+
+
+#HIW {padding:50px 0px;
+	background-color:#fff;}
+	
+#discount {padding:50px 0px;
+		background-color:#fff;}
+	
+.usd {font-size:110px;}	
+
+#email-form {border:1px solid #538398;}
+	
+ /*#faq {background-color:#B2AF61;}	 */
+	
+footer {background-color:#4b4b4b;
+		color:white;
+		padding:50px 0px;}	
+footer a {color:#E9AEB7;
+		text-decoration:underline;}	
+
+footer small {color:white;}		
+
+#contact {padding-bottom:50px;
+		background-color:#538398;}
+		
+#find {background-color:#fff;
+		padding:50px 0px;}		
+
+#find-us {padding-bottom:50px;
+		}
+
+#scrattle-inc {padding:50px 0px;
+		background-color:#538398;}		
+		
+#employees {padding:50px 0px;
+		background-color:#fff;}	
+
+.usabout {padding-bottom:50px;
+		color:#fff;}
+
+.usabout small {color:#fff;}		
+
+#question {color:#fff;
+		}
+		
+#buy {padding:50px 0px;}	
+
+.price {color:#900; 
+margin-bottom:20px;}	
+
+.stock {color:#090;}
+
+#buyfeatures {margin-top:30px;}
+
+#learnmore {padding-bottom:30px; }
