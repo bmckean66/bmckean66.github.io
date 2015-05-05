@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="keywords" content="scrattle, bug, trap, stink bug">
+	<meta name="author" content="Brian McKean">
+	<meta name="robots" content="noindex, nofollow">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="scrattle.css">
+	
+	
+	<title>Scrattle Bug Trap </title>
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+
+	
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home.html">Scrattle Technology</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home </a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="contact.html">Contact Us </a></li>
+		<li><a href="aboutus.html">About Us</a></li>
+		<li><a href="faq.html">FAQ </a></li>
+      </ul>
+	  
+		 <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://twitter.com/ScrattleBugTrap"><i class="fa fa-twitter"></i> Follow Us on Twitter</a></li>
+		<li><button type="button" class="btn btn-blue navbar-btn"><a href="buy.html">Buy Now</a></button></li>
+		</ul>
+     
+    
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+	<div id="contact">
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center usabout">Contact Us</h1>
+					
+					
+				</div>
+			</div> <!--/row-->
+			
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center" id="question">Have Questions?</h2>
+					<p class="text-center usabout">Call us at (503)666-6666<br>Mon-Fri 9am-5pm </p>
+				
+				</div>
+			
+			</div> <!--/row-->
+			
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4">
+					<h2 class="text-center usabout">Still Have Questions?<br><small>Complete our form and we'll contact you as soon as we can</small></h2>
+				
+			
+				
+					<form id="ContactForm" class="ContactForm" action="processSubmission.asp" method="POST">
+						<table class="contactTable">
+						<tbody>
+						<tr>
+							<td style="text-align:right" class="white">Name</td>
+							<td><input type="text" class="formBox validate['required','nodigit','length[2,-1]']" name="Name" maxlength="250" style="width: 250px;"></td>
+							<td><span style="color:#ff0000">*</span></td>
+						</tr>
+						
+						<tr>
+							<td style="text-align:right" class="white">Email</td>
+							<td><input type="text" class="formBox validate['required','email']" name="Email" maxlength="250" style="width: 250px;"></td>
+							<td><span style="color:#ff0000">*</span></td>
+						</tr>
+						<tr>
+							<td style="text-align:right" class="white">Phone</td>
+							<td><input type="text" class="formBox validate['required','phone'] white" name="Phone" maxlength="250" style="width: 150px;">&nbsp;<span style="color:#ff0000">*</span>&nbsp;Ext.&nbsp;<input type="text" class="formBox" name="PhoneExt" maxlength="5" style="width: 35px;"></td>
+							<td></td>
+						</tr><tr>
+							<td style="text-align:right" class="white">How can we <br>help you?</td>
+							<td><textarea class="formTextarea validate['required']" name="Description" rows="6" style="width:256px"></textarea></td>
+							<td><span style="color:#ff0000">*</span></td>
+						</tr><tr>
+							<td style="text-align:right" class="white">How did you <br>hear about us?</td>
+							<td><textarea class="formTextarea" name="HowHeard" rows="2" maxlength="250" style="width: 256px;"></textarea></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="padding-top:20px;">
+							<input type="submit" class="formButton submit" name="btnSubmit" value="Submit Form">
+							<em class="text white" style="font-size:.95em">&nbsp; (<span style="color:#fff">*</span> denotes required fields)</em>
+							<!--<input type="text" name="Subject" value="" class="subjClass">
+							<input type="hidden" name="Action" value="Submit Form">
+							<input type="hidden" name="ClientType" value="new">
+							<input type="hidden" name="EntryDate" value="4/23/2015 6:14:56 PM">-->
+						</td>
+						<td style="padding-top:5px;"></td>
+						</tr>
+					</tbody></table>
+					</form>
+				</div>
+			</div> <!--/row-->
+		</div> <!--/container-->
+	
+	</div>  <!--/contact-->
+	
+	<div id="find">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-center" id="find-us">Find Us</h2>
+				</div>
+			</div> <!--/row-->
+			<div class="row">
+				<div class="col-md-3">
+					<h3 class="text-center">Our Address:</h3>
+					<p class="text-center">1945 Chemeketa St<br>Salem, OR 97301</p>
+				</div>
+				<div class="col-md-9">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1412.1718977534981!2d-123.01603522416394!3d44.93667856661729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54bfff1800fffb1f%3A0xdb24368912477299!2s1945+Chemeketa+St+NE%2C+Salem%2C+OR+97301!5e0!3m2!1sen!2sus!4v1429829655496" width="600" height="450" style="border:0"></iframe>
+				</div>
+			</div> <!--/row-->
+		</div> <!--/container-->
+	</div> <!--/find-->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="foot text-center">Most Recent Reviews </h3>
+					<p class="text-center">"I give it a slurp factor 9!"<br> -Ryan Robie </p>
+					<p class="text-center">"This is the best dongle I've bought in a long time"<br> -Harry Scrattles </p>
+				</div>	
+				
+				<div class="col-md-4">
+					<h3 class="foot text-center">Still Have Questions?<br><small>Shoot us an email</small> </h3>
+					<p class="text-center"><a href="mailto:service@scrattle.net">service@scrattle.net</a>
+				</div>
+				
+				<div class="col-md-4">
+					<h3 class="foot text-center">Scrattle Technology Inc.<br><small> 1945 Chemeketa St. NE<br>Salem, OR 97301<br>(503)666-6666</small> </h3>
+				</div>
+			</div> <!--/row-->
+			<div class="row">
+				<p class="muted text-center small">&copy; 2015 Brian McKean</p>
+			</div>
+		</div> <!--/container-->
+	</footer>	
+		
+		
+		
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
